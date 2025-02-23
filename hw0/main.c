@@ -52,7 +52,7 @@ void print_list(Node *head) {
 }
 
 int main() {
-    FILE *file = fopen("HW0.c", "r");
+    FILE *file = fopen("main.c", "r");
     if (!file) {
         printf("unable to open file\n");
         return 1;
